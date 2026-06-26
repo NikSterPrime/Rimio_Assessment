@@ -12,7 +12,6 @@ const RimigoTitle = () => {
         const fetchCityData = async () => {
             const response = await fetch('https://your-api.com/city-trip')
             const data = await response.json()
-
             setCityData(data)
         }
 
